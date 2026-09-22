@@ -1,0 +1,35 @@
+{
+  "seed": 42,
+  "n_total": 547578,
+  "n_train": 442948,
+  "n_valid": 104630,
+  "valid_frac": 0.2,
+  "default_rate_train": 0.19964194442688532,
+  "default_rate_valid": 0.265421007359266,
+  "metrics": {
+    "dummy_prior": {
+      "roc_auc": 0.5,
+      "pr_auc": 0.265421007359266,
+      "ks": 0.019375462543057442,
+      "brier": 0.19929958133192058,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "threshold": 0.5,
+      "n": 104630,
+      "positive_rate": 0.265421007359266
+    },
+    "logistic_regression": {
+      "roc_auc": 0.6961800040403733,
+      "pr_auc": 0.431152874050975,
+      "ks": 0.28852303454932576,
+      "brier": 0.18131938943788947,
+      "f1": 0.11348347470020474,
+      "precision": 0.582,
+      "recall": 0.06287134060710814,
+      "threshold": 0.5,
+      "n": 104630,
+      "positive_rate": 0.265421007359266
+    }
+  }
+}
